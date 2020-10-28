@@ -1,0 +1,466 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,500&family=Varela+Round&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.m-auto {
+  margin: 0 auto;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.flex-between {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mt-1 {
+  margin-top: 10rem;
+}
+
+.mb-5 {
+  margin-bottom: 5rem;
+}
+
+.py-10 {
+  padding: 10rem 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-dark {
+  color: #1e2e39;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.width-9 {
+  width: 90rem;
+}
+
+.gradient {
+  background: linear-gradient(30deg, #0055a3, #8120ad);
+}
+
+.gradient-reverse {
+  background: linear-gradient(30deg, #8120ad, #0055a3);
+}
+
+.hero {
+  position: relative;
+}
+
+.hero header {
+  height: 8rem;
+  font-size: 1.5rem;
+}
+
+.hero header .header-brand a {
+  font-size: 2.7rem;
+  font-family: 'Lobster', cursive;
+  color: #fff;
+}
+
+.hero header nav a {
+  color: #ddd;
+  margin-left: 5rem;
+  font-weight: 500;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.hero header nav a:last-of-type {
+  padding: 1rem 1.6rem;
+  border-radius: 3rem;
+  color: #1e2e39;
+  background-color: #fff;
+}
+
+.hero header nav a.link_hover:hover {
+  color: #fff;
+}
+
+.hero section {
+  height: 55rem;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.hero section .hero-container h1 {
+  font-size: 4rem;
+}
+
+.hero section .hero-container .shorter__sec {
+  width: 100%;
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero section .hero-container .shorter__sec form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem 2rem;
+}
+
+.hero section .hero-container .shorter__sec form i {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  width: 5rem;
+  height: 5rem;
+  font-size: 3rem;
+  background-color: #fff;
+  color: gray;
+}
+
+.hero section .hero-container .shorter__sec form input[type='text'] {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 5rem;
+  font-size: 2.5rem;
+  font-family: 'Varela Round', sans-serif;
+  padding: 0 1rem;
+  color: #1e2e39;
+}
+
+.hero section .hero-container .shorter__sec form input[type='submit'] {
+  border: none;
+  outline: none;
+  padding: 1rem 3.5rem;
+  background-color: #0065ec;
+  color: #fff;
+  border-radius: 3rem;
+  cursor: pointer;
+  font-size: 1.8rem;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.hero section .hero-container .shorter_res {
+  display: none;
+  margin: 2rem;
+  padding: 2rem;
+  border-top: 1px solid #ddd;
+  font-size: 1.5rem;
+}
+
+.hero section .hero-container .shorter_res.link_ok {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.hero section .hero-container .shorter_res .copyToClip {
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #1e2e39;
+  cursor: pointer;
+}
+
+.hero section .hero-container .shorter_res .copyToClip.copyed {
+  color: #4bb543;
+}
+
+.hero img {
+  position: absolute;
+  width: 100%;
+  bottom: -2rem;
+}
+
+.about {
+  font-size: 2rem;
+}
+
+.about .flex-between {
+  -webkit-box-align: stretch !important;
+      -ms-flex-align: stretch !important;
+          align-items: stretch !important;
+}
+
+.about p {
+  line-height: 2.6rem;
+  font-size: 1.5rem;
+}
+
+.about .flex__item {
+  font-size: 1.5rem;
+  color: #1e2e39;
+}
+
+.about .flex__item .item__header {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about .flex__item .item__body {
+  padding: 0 2rem 2rem;
+}
+
+.about .flex__item .item__body p {
+  line-height: 2.3rem;
+}
+
+.about .ico {
+  font-size: 2rem;
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+  color: #0065ec;
+  background-color: #dddddd;
+  border-radius: 4rem;
+  margin-right: 1rem;
+}
+
+.about .flex-size-m {
+  width: 22rem;
+}
+
+.about .flex-size-l {
+  width: 40rem;
+}
+
+.about .box-shadow {
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 2px 60px -20px rgba(0, 0, 0, 0.26);
+          box-shadow: 0 2px 60px -20px rgba(0, 0, 0, 0.26);
+}
+
+.about .long .ico {
+  margin: 5rem 0 1rem 2rem;
+  width: 5rem;
+  height: 5rem;
+  line-height: 5rem;
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 20px #c9c9c9;
+          box-shadow: 0 2px 20px #c9c9c9;
+}
+
+.create button {
+  display: block;
+  margin-bottom: 1.5rem;
+  border: none;
+  outline: none;
+  padding: 1rem 2rem;
+  font-size: 1.8rem;
+  color: #fff;
+  border-radius: 5rem;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.create p {
+  font-size: 1.5rem;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  z-index: 5;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(0);
+          transform: translate(-50%, -50%) scale(0);
+  width: 80rem;
+  background-color: #1e2e39;
+  color: #fff;
+  border-radius: 1rem;
+  overflow: hidden;
+  z-index: 6;
+}
+
+.modal .modal-header {
+  padding: 2rem 2rem 4rem 2rem;
+}
+
+.modal .modal-header h1 {
+  font-size: 3rem;
+}
+
+.modal .modal-header button {
+  font-size: 4rem;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.modal .modal-body {
+  padding-bottom: 2rem;
+}
+
+.modal .modal-body form {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  padding: 1rem 5rem 3rem 3rem;
+}
+
+.modal .modal-body form .__input {
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+}
+
+.modal .modal-body form .__input label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.modal .modal-body form .__input input {
+  width: 100%;
+  padding: 1rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 1.8rem;
+  border-bottom: 1px solid #fff;
+}
+
+.modal .modal-body form .__input input::-webkit-input-placeholder {
+  color: #ddd;
+}
+
+.modal .modal-body form .__input input:-ms-input-placeholder {
+  color: #ddd;
+}
+
+.modal .modal-body form .__input input::-ms-input-placeholder {
+  color: #ddd;
+}
+
+.modal .modal-body form .__input input::placeholder {
+  color: #ddd;
+}
+
+.modal .modal-body form button {
+  border: none;
+  outline: none;
+  padding: 0.7rem 2rem;
+  background-color: #fff;
+  color: #1e2e39;
+  border-radius: 5rem;
+  font-size: 2rem;
+  cursor: pointer;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.modal .modal-body .creation-content {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  padding: 2rem 3rem 3rem 5rem;
+  font-size: 2rem;
+  line-height: 4rem;
+  color: #ddd;
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.modal img {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  pointer-events: none;
+}
+
+.active_modal {
+  -webkit-animation: pop 0.3s;
+          animation: pop 0.3s;
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-open {
+  overflow: hidden;
+}
+
+.active_overlay {
+  display: block;
+}
+
+@-webkit-keyframes pop {
+  from {
+    -webkit-transform: translate(-50%, -50%) scale(0);
+            transform: translate(-50%, -50%) scale(0);
+  }
+  to {
+    -webkit-transform: translate(-50%, -50%) scale(1);
+            transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@keyframes pop {
+  from {
+    -webkit-transform: translate(-50%, -50%) scale(0);
+            transform: translate(-50%, -50%) scale(0);
+  }
+  to {
+    -webkit-transform: translate(-50%, -50%) scale(1);
+            transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+footer .footer {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #1e2e39;
+  padding: 3rem;
+}

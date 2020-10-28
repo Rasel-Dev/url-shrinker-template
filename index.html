@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium URL Shrinker</title>
+    <link rel="stylesheet" href="./dist/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./dist/css/style.css">
+</head>
+<body>
+    <div class="hero gradient">
+        <header class="container flex-between">
+            <div class="header-brand">
+                <a href="#">Url Shrinker</a>
+            </div>
+            <nav>
+                <a href="#" class="link_hover">Pricing</a>
+                <a href="#" class="link_hover" id="login">Login</a>
+                <a href="#">Get Started!</a>
+            </nav>
+        </header>
+        <section>
+            <div class="hero-container width-9">
+                <h1 class="mb-5 text-center text-white">Premium URL Shortner</h1>
+                <div class="shorter__sec">
+                    <form action="#" method="post" autocomplete="off">
+                        <i class="fa fa-link"></i>
+                        <input type="text" name="url" id="url" placeholder="Past your url..." spellcheck="false" required />
+                        <input type="submit" value="Shorten" />
+                    </form>
+                    <div class="shorter_res flex-between">
+                        <div id="convert">https://fontawesome.bootstrapcheatsheets.com/#</div>
+                        <button class="copyToClip">Copy</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <img src="./dist/imgs/wave.png" />
+        <img src="./dist/imgs/wave2.png" />
+    </div>
+    <section class="container about mt-10 py-10">
+        <h1 class="mb-5 text-center text-dark text-capitalize">one short link, infinity possibilities</h1>
+        <p class="width-9 m-auto mb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos voluptate harum laborum fugit hic sunt explicabo provident asperiores, rem, inventore minus veniam vitae sapiente soluta? Explicabo, ad? Alias quod voluptate aspernatur libero a, quo nostrum, ab maxime doloribus soluta omnis temporibus exercitationem quos id sapiente non. Velit ut, vero dolore officiis labore voluptate ipsam consequuntur et libero?</p>
+        <div class="width-9 m-auto flex-between">
+            <div class="flex__item flex-size-m box-shadow">
+                <div class="item__header">
+                    <i class="fa fa-star ico text-center"></i>
+                    <p><strong>Target, Re-target</strong></p>
+                </div>
+                <div class="item__body">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis aperiam exercitationem, illum odit omnis vitae repudiandae quod optio beatae cupiditate facere, quisquam quos similique
+                    </p>
+                </div>
+            </div>
+            <div class="flex__item flex-size-m box-shadow gradient">
+                <div class="item__header">
+                    <i class="fa fa-star ico text-center"></i>
+                    <p><strong class="text-white">Target, Re-target</strong></p>
+                </div>
+                <div class="item__body">
+                    <p class="text-white">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis aperiam exercitationem, illum odit omnis vitae repudiandae quod optio beatae cupiditate facere, quisquam quos similique
+                    </p>
+                </div>
+            </div>
+            <div class="flex__item flex-size-l long">
+                <i class="fa fa-paper-plane ico text-center"></i><br><br>
+                <div class="item__body">
+                    <small>Research & Increase Seles</small><br>
+                    <h2>Perfect for Seles & Marketing</h2><br>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis aperiam exercitationem, illum odit omnis vitae repudiandae quod optio beatae cupiditate facere, quisquam quos similique
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container create py-10">
+        <center>
+            <button class="gradient-reverse" id="create">Create an account</button>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+        </center>
+    </section>
+    <div class="modal gradient" id="create_account">
+        <div class="modal-header flex-between">
+            <h1>Create an Account</h1>
+            <button id="close">&times;</button>
+        </div>
+        <div class="modal-body">
+            <div class="flex-between">
+                <form action="#">
+                    <div class="__input">
+                        <input type="text" name="fname" id="fname" placeholder="Enter Your Frist Name" required />
+                    </div>
+                    <div class="__input">
+                        <input type="text" name="lname" id="lname" placeholder="Enter Your Last Name" required />
+                    </div>
+                    <div class="__input">
+                        <input type="email" name="email" id="email" placeholder="Email Address" required />
+                    </div>
+                    <div class="__input">
+                        <input type="text" name="npass" id="npass" placeholder="Create an password" required />
+                    </div>
+                    <div class="__input">
+                        <input type="text" name="cpass" id="cpass" placeholder="Confirm password" required />
+                    </div>
+                    
+                    <button type="submit"><i class="fa fa-long-arrow-right"></i>&nbsp;&nbsp;Sign up</button>
+                </form>
+                <div class="creation-content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptatibus reprehenderit quas velit obcaecati accusamus culpa laborum tempore consequatur, officia adipisci dolore, in voluptate quo, enim quis hic sint sed!
+                </div>
+            </div>
+        </div>
+        <img src="./dist/imgs/wave.png" alt="">
+    </div>
+    <div class="modal gradient" id="login_account">
+        <div class="modal-header flex-between">
+            <h1>Login Your Account</h1>
+            <button id="close">&times;</button>
+        </div>
+        <div class="modal-body">
+            <div class="flex-between">
+                <form action="#">
+                    <div class="__input">
+                        <input type="email" name="email" id="email" placeholder="Email Address" required />
+                    </div>
+                    <div class="__input">
+                        <input type="text" name="pass" id="npass" placeholder="password" required />
+                    </div>
+                    
+                    <button type="submit" id="login_btn"><span class="login_btn_ico"><i class="fa fa-lock"></i></span>&nbsp;&nbsp;Login</button>
+                </form>
+                <div class="creation-content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptatibus 
+                </div>
+            </div>
+        </div>
+        <img src="./dist/imgs/wave.png" alt="">
+    </div>
+    <div class="overlay"></div>
+    <footer>
+        <section class="footer">
+            <p>Copyright &copy;2020 All rights reserved</p>
+        </section>
+    </footer>
+    <script src="./dist/js/jquery.js"></script>
+    <script src="./dist/js/main.js"></script>
+</body>
+</html>
